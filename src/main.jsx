@@ -9,6 +9,7 @@ import Products from './Components/Products/Products'
 import Contact from './Components/Contact us/Contact'
 import Details from './Components/ProductDetails/Details'
 
+
 const myCreatRouter = createBrowserRouter([
   {
     path: '/',

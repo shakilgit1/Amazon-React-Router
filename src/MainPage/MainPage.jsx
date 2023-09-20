@@ -1,6 +1,7 @@
 
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
+import './m.css'
 
 const MainPage = () => {
     return (
@@ -8,9 +9,9 @@ const MainPage = () => {
         <nav className='flex justify-evenly items-center max-w-screen-xl mx-auto shadow-xl rounded-lg py-4'>
             <h2 className='text-4xl'>Amazon</h2>
             <div className='flex gap-5'>
-                <Link to='/'>Home</Link>
-                <Link to='/products'>Products</Link>
-                <Link to='/contact'>Contact Us</Link>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/products'>Products</NavLink>
+                <NavLink to='/contact'>Contact Us</NavLink>
             </div>
             
          </nav>
